@@ -1,0 +1,8 @@
+mruby:
+  build: .
+  ports:
+    - "10080:80"
+  links:
+    - mongo
+mongo:
+  image: mongo

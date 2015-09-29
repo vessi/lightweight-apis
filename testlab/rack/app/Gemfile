@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+
+gem 'mongo'
+gem 'rack'
+gem 'rack-router'
+gem 'unicorn'
