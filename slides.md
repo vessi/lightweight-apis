@@ -395,8 +395,11 @@ Percentage of the requests served within a certain time (ms)
  100%    132 (longest request)
 ```
 ---
-class: center, middle
+class: center, top
 # Problems
+<p align="center">
+  <img src="/images/bug4.svg" width="70%" height="70%" />
+</p>
 ---
 # Problems
 
@@ -434,8 +437,11 @@ Everything has its price. `ngx_mruby` and Nginx and mRuby are not exceptions.
 ---
 class: center, middle
 
-# Thank you!
----
-class: center, middle
-
 # Questions?
+---
+class: center, top
+# Thank you!
+
+<p align="center">
+  <img src="/images/bug5.svg" width="70%" height="70%" />
+</p>
