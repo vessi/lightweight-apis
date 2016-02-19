@@ -435,6 +435,65 @@ Everything has its price. `ngx_mruby` and Nginx and mRuby are not exceptions.
 * mRuby has no `require` keyword, so you code will not be so DRY as you want
 * still not so fast as pure C implementation :(
 ---
+# Problems
+
+Everything has its price. `ngx_mruby` and Nginx and mRuby are not exceptions.
+
+* you have to recompile mRuby each time you add some dependency
+* oftenly gems are written in pure C
+* ~~mRuby has no `require` keyword, so you code will not be so DRY as you want~~ **WRONG!**
+* still not so fast as pure C implementation :(
+---
+# mruby-require to the rescue!
+---
+# mruby-require to the rescue!
+
+`mruby-require` allows you both to don't hold some gems in your mRuby virtual machine and to require your own code.
+---
+# mruby-require to the rescue!
+
+`mruby-require` allows you both to don't hold some gems in your mRuby virtual machine and to require your own code.
+
+* located at: [github://mattn/mruby-require](https://github.com/mattn/mruby-require)
+---
+# mruby-require to the rescue!
+
+`mruby-require` allows you both to don't hold some gems in your mRuby virtual machine and to require your own code.
+
+* located at: [github://mattn/mruby-require](https://github.com/mattn/mruby-require)
+* gems that are located in `build_config.rb` before `mruby-require` - are included in mRuby VM, after - are not
+---
+# mruby-require to the rescue!
+
+`mruby-require` allows you both to don't hold some gems in your mRuby virtual machine and to require your own code.
+
+* located at: [github://mattn/mruby-require](https://github.com/mattn/mruby-require)
+* gems that are located in `build_config.rb` before `mruby-require` - are included in mRuby VM, after - are not
+* requirements are loaded at each execution
+---
+# Miss Rack?
+---
+# Miss Rack?
+
+`mruby-hibari` is the abstraction that is pretty similiar to well-known Rack interface. But just faster a lot.
+---
+# Miss Rack?
+
+`mruby-hibari` is the abstraction that is pretty similiar to well-known Rack interface. But just faster a lot.
+
+Find it at [github://kentaro/mruby-hibari](https://github.com/kentaro/mruby-hibari)
+---
+# Seeking for opensource developers!
+
+I am looking for support to continue development of [mruby-mongo](https://github.com/vessi/mruby-mongo). Any help will be appreciated.
+---
+class: center, top
+# Still actual :(
+
+<p align="center">
+  <img src="/images/monolitic.jpg" width="90%" height="90%" />
+</p>
+---
 class: center, middle
 
 # Questions?
