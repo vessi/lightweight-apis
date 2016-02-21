@@ -1,0 +1,15 @@
+name: your_app
+version: 0.1.0
+
+authors:
+  - Jesterovskiy <jester@aejis.eu>
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: sdogruyol/kemal
+    branch: master
+  mongo:
+    github: datanoise/mongo.cr
+    branch: master

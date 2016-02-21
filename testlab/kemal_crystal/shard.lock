@@ -1,0 +1,18 @@
+version: 1.0
+shards:
+  kemal:
+    github: sdogruyol/kemal
+    commit: 6929a1b8a94bbe4512242e614f46db38048fada4
+
+  kilt:
+    github: jeromegn/kilt
+    version: 0.3.2
+
+  mongo.cr:
+    github: datanoise/mongo.cr
+    commit: 69dd2ddf75469fd0daaec61e0b678c16fa947b92
+
+  radix:
+    github: luislavena/radix
+    version: 0.1.0
+
